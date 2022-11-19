@@ -1,0 +1,152 @@
+body {
+ background: yellow;
+ font-size:22px;
+ line-height: 32px;
+ color: yellow;
+ word-wrap:break-word !important;
+    font-family: 'Quicksand', sans-serif;
+ margin: 0;
+ padding: 0;
+}
+body {
+ background: yellow;
+ font-size:22px;
+ line-height: 32px;
+ color: yellow;
+ word-wrap:break-word !important;
+    font-family: 'Quicksand', sans-serif;
+ margin: 0;
+ padding: 0;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h1 {
+ font-size: 60px;
+ text-align: center;
+ color: #FFF;
+ margin-top: 150px;
+    font-family: 'Russo One', sans-serif;
+ }
+h1 span {
+ color: #FF4649;
+}
+#container {
+ margin: 0 auto;
+}
+ 
+nav {
+ margin: 35px 0;
+ background-color: #FF4649;
+}
+nav ul {
+ padding: 0;
+        margin: 0;
+ list-style: none;
+ position: relative;
+ } 
+nav ul li {
+ display:inline-block;
+ background-color: #FF4649;
+ }
+nav a {
+ display:block;
+ padding:0 10px; 
+ color:white;
+ font-size:20px;
+ line-height: 60px;
+ text-decoration:none;
+}
+nav a:hover { 
+ background-color: red; 
+}
+nav ul ul {
+ display: none;
+ position: absolute; 
+ top: 60px; 
+} 
+nav ul li:hover > ul {
+ display:inherit;
+} 
+nav ul ul li {
+ width:230px;
+ float:none;
+ display:list-item;
+ position: relative;
+}
+nav ul ul ul li {
+ position: relative;
+ top:-60px; 
+ left:230px;
+}
+nav ul ul li {
+ border: 1px solid white;
+} 
+li > a:after { content:  ' â–¼'; }
+li > a:only-child:after { content: ''; }
+h1 {
+ font-size: 60px;
+ text-align: center;
+ color: #FFF;
+ margin-top: 150px;
+    font-family: 'Russo One', sans-serif;
+ }
+h1 span {
+ color: #FF4649;
+}
+#container {
+ margin: 0 auto;
+}
+ 
+nav {
+ margin: 35px 0;
+ background-color: #FF4649;
+}
+nav ul {
+ padding: 0;
+        margin: 0;
+ list-style: none;
+ position: relative;
+ } 
+nav ul li {
+ display:inline-block;
+ background-color: #FF4649;
+ }
+nav a {
+ display:block;
+ padding:0 10px; 
+ color:white;
+ font-size:20px;
+ line-height: 60px;
+ text-decoration:none;
+}
+nav a:hover { 
+ background-color: red; 
+}
+nav ul ul {
+ display: none;
+ position: absolute; 
+ top: 60px; 
+} 
+nav ul li:hover > ul {
+ display:inherit;
+} 
+nav ul ul li {
+ width:230px;
+ float:none;
+ display:list-item;
+ position: relative;
+}
+nav ul ul ul li {
+ position: relative;
+ top:-60px; 
+ left:230px;
+}
+nav ul ul li {
+ border: 1px solid white;
+} 
+li > a:after { content:  ' â–¼'; }
+li > a:only-child:after { content: ''; }
